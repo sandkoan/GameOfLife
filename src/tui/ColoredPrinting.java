@@ -23,7 +23,6 @@ public class ColoredPrinting {
     static final String ANSI_CYAN_BACKGROUND = "\u001B[46m";
     static final String ANSI_WHITE_BACKGROUND = "\u001B[47m";
 
-
     static char ALIVE_CHAR = '\u2596', DEAD_CHAR = ' ';
     static String ALIVE_COLOR = ANSI_CYAN, DEAD_COLOR = ANSI_BLACK;
 
@@ -41,7 +40,7 @@ public class ColoredPrinting {
         System.out.println(
                 ANSI_RED + "Options:\n" + ANSI_RESET +
                         ANSI_BLUE + "gun (default=random, blinker, beacon, glider, combination, gosperGlider), " +
-                        "number of trials (default=40),\n" +
+                        "number of trials (default=10),\n" +
                         "aliveChar (default=\u2596),\n" +
                         "deadChar (default= [space]),\n" +
                         "dividingChar (default=~)\n" + ANSI_RESET +

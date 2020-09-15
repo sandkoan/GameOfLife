@@ -20,7 +20,7 @@ public class Guns {
 
     static int[][] initBlinkerMatrix(int r, int c) {
         // Blinker: (game-start '((0 1) (1 1) (2 1)) 3 10)
-        int[][] matrix = new int[3][3];
+        int[][] matrix = new int[r][c];
         fillZeros(matrix);
         matrix[0][1] = matrix[1][1] = matrix[2][1] = 1;
         return matrix;
@@ -66,7 +66,6 @@ public class Guns {
                                                         matrix[6][25] = matrix[7][25] = matrix[3][35] = matrix[4][35] = matrix[3][36] = matrix[4][36] = 1;
         return matrix;
     }
-
 
     static int[][] initBlinkerMatrix() {
         // Blinker: (game-start '((0 1) (1 1) (2 1)) 3 10)

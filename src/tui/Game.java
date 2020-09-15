@@ -6,7 +6,6 @@ import static tui.Utils.NUM_COLUMNS;
 import static tui.Utils.NUM_ROWS;
 
 public class Game {
-
     private static int getAliveNeighbours(int[][] matrix, int s, int t) {
         int aliveNeighbours = 0;
         for (int i = -1; i <= 1; i++) {

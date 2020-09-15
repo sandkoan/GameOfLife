@@ -9,7 +9,7 @@ import static tui.Guns.*;
 public class Utils {
 
     // Defaults
-    static int NUM_ROWS = 50, NUM_COLUMNS = 50, NUM_TRIALS = 40;
+    static int NUM_ROWS = 5, NUM_COLUMNS = 5, NUM_TRIALS = 5;
     static String DIVIDING_STRING = "~", GUN_TYPE = "random";
 
     static void setOpts() {
